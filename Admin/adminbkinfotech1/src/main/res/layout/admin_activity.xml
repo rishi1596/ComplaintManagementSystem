@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black1"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="10">
+
+    <Button
+        android:id="@+id/btn_id_new_complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/customize_button"
+        android:drawableStart="@drawable/whitenewarrivedtickets40"
+        android:drawableEnd="@drawable/whitearrow15"
+
+        android:drawablePadding="5dp"
+        android:text="@string/new_complaint"
+        android:textAlignment="textStart"
+
+        android:textColor="@color/fontColor"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_id_appointed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/customize_button"
+        android:drawableStart="@drawable/whiteinprocess40"
+        android:drawableEnd="@drawable/whitearrow15"
+
+        android:drawablePadding="5dp"
+        android:text="@string/appointed_complaint"
+        android:textAlignment="textStart"
+
+        android:textColor="@color/fontColor"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_id_all_complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/customize_button"
+        android:drawableStart="@drawable/whiteall40"
+        android:drawableEnd="@drawable/whitearrow15"
+
+        android:drawablePadding="5dp"
+        android:text="@string/all_complaint"
+        android:textAlignment="textStart"
+
+        android:textColor="@color/fontColor"
+        android:textSize="16sp" />
+    <!-- Todo Raise ticket ui -->
+    <Button
+        android:id="@+id/btn_id_raise_new_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/customize_button"
+        android:drawableStart="@drawable/whiteadd40"
+        android:drawableEnd="@drawable/whitearrow15"
+
+        android:drawablePadding="5dp"
+        android:text="@string/raise_ticket"
+        android:textAlignment="textStart"
+
+        android:textColor="@color/fontColor"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_id_app_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_dialog_email"
+        app:backgroundTint="@color/fontColor" />
+
+    <TextView
+        android:id="@+id/tv_id_privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_policy"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>
